@@ -1,41 +1,41 @@
 export default defineAppConfig({
   alpine: {
-    title: 'Alpine',
-    description: 'The minimalist blog theme',
+    title: "Saad",
+    description: "The minimalist blog theme",
     image: {
-      src: '/social-card-preview.png',
-      alt: 'An image showcasing my project.',
+      src: "/social-card-preview.png",
+      alt: "An image showcasing my project.",
       width: 400,
-      height: 300
+      height: 300,
     },
     header: {
-      position: 'right',
+      position: "right",
       logo: {
-        path: '/logo.svg',
-        pathDark: '/logo-dark.svg',
-        alt: 'alpine'
-      }
+        path: "/logo.svg",
+        pathDark: "/logo-dark.svg",
+        alt: "Saad",
+      },
     },
     footer: {
       credits: {
         enabled: true,
-        text: 'Alpine',
-        repository: 'https://www.github.com/nuxt-themes/alpine'
+        text: "Saad",
+        repository: "https://github.com/S-Selim/saad-main",
       },
       navigation: true,
-      alignment: 'center',
-      message: 'Follow me on'
+      alignment: "center",
+      message: "Follow me on",
     },
     socials: {
-      twitter: '',
-      instagram: '',
-      github: '',
-      facebook: '',
-      medium: '',
-      youtube: ''
+      twitter: "",
+      instagram: "",
+      github: "",
+      facebook: "",
+      medium: "",
+      youtube: "",
     },
     form: {
-      successMessage: 'Message sent. Thank you!'
-    }
-  }
-})
+      successMessage: "Message sent. Thank you!",
+    },
+  },
+});
